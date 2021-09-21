@@ -5,14 +5,14 @@ import "./DrumMachine.css";
 function DrumMachine() {
   const bankOne = [
     {
-      keyCode: 81,
-      keyTrigger: "Q",
+      keyCode: 65,
+      keyTrigger: "A",
       id: "Heater-1",
       url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
     },
     {
-      keyCode: 87,
-      keyTrigger: "W",
+      keyCode: 90,
+      keyTrigger: "Z",
       id: "Heater-2",
       url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
     },
@@ -23,8 +23,8 @@ function DrumMachine() {
       url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3",
     },
     {
-      keyCode: 65,
-      keyTrigger: "A",
+      keyCode: 81,
+      keyTrigger: "Q",
       id: "Heater-4",
       url: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
     },
@@ -41,8 +41,8 @@ function DrumMachine() {
       url: "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3",
     },
     {
-      keyCode: 90,
-      keyTrigger: "Z",
+      keyCode: 87,
+      keyTrigger: "W",
       id: "Kick-n-Hat",
       url: "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3",
     },
