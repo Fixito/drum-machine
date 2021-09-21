@@ -1,0 +1,42 @@
+#drum-machine {
+  display: flex;
+  padding: 1rem;
+  border: 5px solid #ffa500;
+  background-color: #b3b3b3;
+}
+
+.left-board {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.right-board {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  height: 2rem;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #808080;
+}
+
+@media screen and (max-width: 576px) {
+  #drum-machine {
+    flex-direction: column;
+  }
+
+  .left-board {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}
